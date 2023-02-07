@@ -1,0 +1,75 @@
+h1 {
+  color: #ff8c00;
+}
+
+h2 {
+  color: orchid;
+}
+
+h3 {
+  color: silver;
+}
+
+a {
+  color: maroon;
+}
+
+/* x > y = x er barn af y (den nærmeste men ikke børnebørne)*/
+/* mellemrummet viser at det er arving af, men ikke direkte barn af  */
+/* nav ul ul - ville være det ANDET ul under nav */
+nav ul {
+  background-color: rgb(219, 101, 10);
+  padding-left: 10px;
+  list-style-type: none;
+}
+
+/* section.codebox = er section med classen codebox */
+
+header {
+  background-color: rgb(128, 0, 128);
+  text-align: center;
+  padding: 25px;
+}
+
+footer {
+  background-color: mediumpurple;
+  padding: 25px;
+  text-align: center;
+}
+
+body {
+  background-color: #fffff0;
+  font-family: sans-serif;
+}
+
+section {
+  color: yellow;
+  background-color: #c0c0c0;
+}
+
+#about {
+  background-color: rgb(5, 7, 98);
+}
+
+/* vi kan give dem samme class for at give dem samme farve/layout */
+/* #selectors,
+#properties {
+  background-color: gold;
+} */
+
+.codebox {
+  background-color: rgb(8, 153, 244);
+}
+
+#boxmodel {
+  background-color: rgb(5, 7, 98);
+  color: #ff8c00;
+}
+
+#units {
+  background-color: rgb(8, 153, 244);
+}
+
+#fonts {
+  background-color: teal;
+}
